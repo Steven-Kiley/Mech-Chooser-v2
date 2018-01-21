@@ -1,0 +1,15 @@
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\OwnedMechs.xml
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\App.config
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\MChooser.exe.config
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\MChooser.exe.manifest
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\MChooser.application
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\MChooser.exe
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\bin\Release\MChooser.pdb
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.AddMechForm.resources
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.Properties.Resources.resources
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.UI.SelectionForm.resources
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.csproj.GenerateResource.Cache
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.exe.manifest
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.application
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.exe
+C:\Users\steven.kiley\Documents\Visual Studio 2015\Projects\MChooser\MChooser\obj\Release\MChooser.pdb

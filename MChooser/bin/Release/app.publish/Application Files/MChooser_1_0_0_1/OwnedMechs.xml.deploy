@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mechs>
+  <light>
+    <mech faction="INNER_SPHERE" weight="TWENTY_FIVE" mechmodel="Commando">
+      <modelvariant>2D</modelvariant>
+      <modelvariant>3A</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="THIRTY_FIVE" mechmodel="Jenner">
+      <modelvariant>2F</modelvariant>
+      <modelvariant>2C</modelvariant>
+    </mech>
+  </light>
+  <medium>
+  </medium>
+  <heavy>
+    <mech faction="INNER_SPHERE" weight="SIXTY" mechmodel="Dragon">
+      <modelvariant>5D</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SEVENTY" mechmodel="Nova Cat">
+      <modelvariant>Prime</modelvariant>
+    </mech>
+  </heavy>
+  <assault>
+    <mech faction="INNER_SPHERE" weight="HUNDRED" mechmodel="Atlas">
+      <modelvariant>AS7-D</modelvariant>
+    </mech>
+  </assault>
+</mechs>

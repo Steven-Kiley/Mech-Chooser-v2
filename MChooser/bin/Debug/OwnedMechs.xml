@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mechs>
+  <light>
+    <mech faction="INNER_SPHERE" weight="THIRTY_FIVE" mechmodel="Raven">
+      <modelvariant>RVN-3L</modelvariant>
+      <modelvariant>RVN-H</modelvariant>
+      <modelvariant>RVN-2X</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="THIRTY_FIVE" mechmodel="Jenner">
+      <modelvariant>JR7-DS</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="TWENTY_FIVE" mechmodel="Commando">
+      <modelvariant>COM-TDK</modelvariant>
+      <modelvariant>COM-2D</modelvariant>
+      <modelvariant>COM-1B</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="TWENTY" mechmodel="Locust">
+      <modelvariant>LCT-1V</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="THIRTY_FIVE" mechmodel="Firestarter">
+      <modelvariant>FS9-E</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="THIRTY" mechmodel="Spider">
+      <modelvariant>SDR-5D</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="THIRTY_FIVE" mechmodel="Adder">
+      <modelvariant>ADR-PRIME</modelvariant>
+      <modelvariant>ADR-A</modelvariant>
+      <modelvariant>ADR-D</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="THIRTY" mechmodel="Urbanmech">
+      <modelvariant>UM-R63</modelvariant>
+      <modelvariant>UM-R60</modelvariant>
+      <modelvariant>UM-R60L</modelvariant>
+      <modelvariant>UM-R68</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="THIRTY_FIVE" mechmodel="Jenenr IIC">
+      <modelvariant>JR7-IIC</modelvariant>
+      <modelvariant>JR7-IIC-3</modelvariant>
+      <modelvariant>JR7-IIC-FY</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="THIRTY" mechmodel="Arctic Cheetah">
+      <modelvariant>ACH-C</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="TWENTY_FIVE" mechmodel="Mist Lynx">
+      <modelvariant>MLX-C</modelvariant>
+      <modelvariant>MLX-ED</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="THIRTY" mechmodel="Kit Fox">
+      <modelvariant>KFX-G</modelvariant>
+    </mech>
+  </light>
+  <medium>
+    <mech faction="INNER_SPHERE" weight="FORTY" mechmodel="Cicada">
+      <modelvariant>CDA-2A</modelvariant>
+      <modelvariant>CDA-3M</modelvariant>
+      <modelvariant>CDA-3F</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY_FIVE" mechmodel="Shadowhawk">
+      <modelvariant>SHD-2HP</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FORTY_FIVE" mechmodel="Blackjack">
+      <modelvariant>BJ-1</modelvariant>
+      <modelvariant>BJ-2</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY" mechmodel="Centurion">
+      <modelvariant>CN9-YLW</modelvariant>
+      <modelvariant>CN9-AH</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FIFTY_FIVE" mechmodel="Stormcrow">
+      <modelvariant>SCR-PRIME</modelvariant>
+      <modelvariant>SCR-C</modelvariant>
+      <modelvariant>SCR-D</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY" mechmodel="Hunchback">
+      <modelvariant>HBK-4H</modelvariant>
+      <modelvariant>HBK-4P</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY" mechmodel="Trebuchet">
+      <modelvariant>TBT-LG</modelvariant>
+      <modelvariant>TBT-7M</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FORTY_FIVE" mechmodel="Ice Ferret">
+      <modelvariant>IFR-C</modelvariant>
+      <modelvariant>IFR-A</modelvariant>
+      <modelvariant>IFR-P</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FIFTY" mechmodel="Nova">
+      <modelvariant>NVA-D</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY_FIVE" mechmodel="Wolverine">
+      <modelvariant>WVR-7D</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FORTY" mechmodel="Viper">
+      <modelvariant>VPR-C</modelvariant>
+      <modelvariant>VPR-M</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FIFTY" mechmodel="Hunchback IIC">
+      <modelvariant>HBK-IIC</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="FIFTY" mechmodel="Huntsman">
+      <modelvariant>HMN-PA</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="FIFTY_FIVE" mechmodel="Kintaro">
+      <modelvariant>KTO-18</modelvariant>
+    </mech>
+  </medium>
+  <heavy>
+    <mech faction="INNER_SPHERE" weight="SIXTY_FIVE" mechmodel="Jagermech">
+      <modelvariant>JM6-S</modelvariant>
+      <modelvariant>JM6-FB</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SIXTY_FIVE" mechmodel="Catapult">
+      <modelvariant>CPLT-C1</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SIXTY" mechmodel="Dragon">
+      <modelvariant>DRG-5N</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SIXTY_FIVE" mechmodel="Thunderbolt">
+      <modelvariant>TDR-5SP</modelvariant>
+      <modelvariant>TDR-9SE</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SEVENTY" mechmodel="Cataphract">
+      <modelvariant>CTF-3D</modelvariant>
+      <modelvariant>CTF-IM</modelvariant>
+      <modelvariant>CTF-3L</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SEVENTY_FIVE" mechmodel="Orion">
+      <modelvariant>ON1-M</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SIXTY_FIVE" mechmodel="Hellbringer">
+      <modelvariant>HBR-PRIME</modelvariant>
+      <modelvariant>HBR-B</modelvariant>
+      <modelvariant>HBR-F</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SEVENTY_FIVE" mechmodel="Orion IIC">
+      <modelvariant>ON1-IIC</modelvariant>
+      <modelvariant>ON1-IIC-A</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="SIXTY" mechmodel="Rifleman">
+      <modelvariant>RFL-LK</modelvariant>
+      <modelvariant>RFL-3C</modelvariant>
+      <modelvariant>RFL-3N</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SIXTY_FIVE" mechmodel="Ebon Jaguar">
+      <modelvariant>EBJ-A</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SIXTY" mechmodel="Mad Dog">
+      <modelvariant>MDD-H</modelvariant>
+      <modelvariant>MDD-B</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SEVENTY" mechmodel="Summoner">
+      <modelvariant>SMN-B</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="SEVENTY" mechmodel="Nova Cat">
+      <modelvariant>NCT-PRIME</modelvariant>
+      <modelvariant>NCT-A</modelvariant>
+      <modelvariant>NCT-B</modelvariant>
+    </mech>
+  </heavy>
+  <assault>
+    <mech faction="INNER_SPHERE" weight="HUNDRED" mechmodel="Atlas">
+      <modelvariant>AS7-D-DDC</modelvariant>
+      <modelvariant>AS7-K</modelvariant>
+      <modelvariant>AS7-S</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="EIGHTY" mechmodel="Awesome">
+      <modelvariant>AWS-8R</modelvariant>
+      <modelvariant>AWS-PB</modelvariant>
+      <modelvariant>AWS-9M</modelvariant>
+      <modelvariant>AWS-8Q</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="EIGHTY_FIVE" mechmodel="Warhawk">
+      <modelvariant>WHK-PRIME</modelvariant>
+      <modelvariant>WHK-A</modelvariant>
+      <modelvariant>WHK-B</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="EIGHTY_FIVE" mechmodel="Stalker">
+      <modelvariant>STK-4N</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="NINETY_FIVE" mechmodel="Executioner">
+      <modelvariant>EXE-PRIME</modelvariant>
+      <modelvariant>EXE-B</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="NINETY" mechmodel="Mauler">
+      <modelvariant>MAL-MX90</modelvariant>
+      <modelvariant>MAL-1R</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="HUNDRED" mechmodel="Kodiak">
+      <modelvariant>KDK-3</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="EIGHTY" mechmodel="Gargoyle">
+      <modelvariant>GAR-D</modelvariant>
+    </mech>
+    <mech faction="CLAN" weight="NINETY" mechmodel="Mad Cat MK II">
+      <modelvariant>MCII-1</modelvariant>
+      <modelvariant>MCII-2</modelvariant>
+      <modelvariant>MCII-4</modelvariant>
+    </mech>
+    <mech faction="INNER_SPHERE" weight="NINETY_FIVE" mechmodel="Banshee">
+      <modelvariant>BNC-3E</modelvariant>
+    </mech>
+  </assault>
+</mechs>
