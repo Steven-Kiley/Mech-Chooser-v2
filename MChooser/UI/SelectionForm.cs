@@ -1,5 +1,6 @@
 ﻿using MChooser.Constants;
 using MChooser.Models;
+using MChooser.RandomNumberGeneration;
 using MChooser.XMLControl;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,13 @@ namespace MChooser.UI
     public partial class SelectionForm : Form
     {
         private Action SwitchMethod;
+        private List<MechModel> AlreadySelectedMechs;
+        private static int NoRepeatsFailoverLimit = 25;
 
         public SelectionForm(Action switchMethod)
         {
             this.SwitchMethod = switchMethod;
+            this.AlreadySelectedMechs = new List<MechModel>();
             InitializeComponent();
         }
 
@@ -92,7 +96,7 @@ namespace MChooser.UI
         {
             if (ValidateFactionCheckboxes() && ValidateWeightClassCheckboxes())
             {
-                Random rand = new Random();
+                StrongRandom rand = new StrongRandom();
                 List<MechClasses> chosenClasses = new List<MechClasses>();
                 if (this.LightCheckbox.Checked)
                     chosenClasses.Add(MechClasses.LIGHT);
@@ -113,12 +117,33 @@ namespace MChooser.UI
 
                 if (choosableModels.Count > 0)
                 {
-                    int randomMechIndex = rand.Next(choosableModels.Count);
-                    MechModel chosenMech = choosableModels[randomMechIndex];
+                    int mechSelectAttempts = 0;
+                    bool successfullySelectedMech = false;
+                    while (!successfullySelectedMech && mechSelectAttempts < NoRepeatsFailoverLimit)
+                    {
+                        int randomMechIndex = rand.Next(choosableModels.Count);
+                        MechModel chosenMech = choosableModels[randomMechIndex];
 
-                    this.ChassisName.Text = chosenMech.MechModelName;
-                    this.VariantName.Text = chosenMech.ModelVariantName;
-                    this.NoMechsError.Visible = false; 
+                        if (!AlreadySelectedMechs.Contains(chosenMech))
+                        {
+                            this.ChassisName.Text = chosenMech.MechModelName;
+                            this.VariantName.Text = chosenMech.ModelVariantName;
+                            this.NoMechsError.Visible = false;
+                            AlreadySelectedMechs.Add(chosenMech);
+                            successfullySelectedMech = true;
+                        }
+                        else
+                        {
+                            mechSelectAttempts++;
+                            //Simple cleanout: if reached no repeat failover limit minus 1, 
+                            //assume already selected mech list should be emptied so that last 
+                            //attempt in while loop *should* succeed if any mech matches criteria
+                            if (mechSelectAttempts == (NoRepeatsFailoverLimit - 1))
+                            {
+                                AlreadySelectedMechs.Clear();
+                            }
+                        }
+                    }
                 }
                 else
                 {

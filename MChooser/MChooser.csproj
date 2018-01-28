@@ -92,6 +92,7 @@
     <Compile Include="Models\LightMech.cs" />
     <Compile Include="Models\MechModel.cs" />
     <Compile Include="Models\MediumMech.cs" />
+    <Compile Include="RandomNumberGeneration\StrongRandom.cs" />
     <Compile Include="UI\AddMechForm.cs">
       <SubType>Form</SubType>
     </Compile>

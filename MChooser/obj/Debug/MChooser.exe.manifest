@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MChooser.exe" size="31232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MChooser.exe" size="32256">
       <assemblyIdentity name="MChooser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mY3dC9UG9RefexEYkkRH9UPzfXXQV+OqHCw2L+ww4gc=</dsig:DigestValue>
+        <dsig:DigestValue>TNxVVJUEeYmqFsjt40UcrzUDoHQIidAbby8oSkFOIM4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
